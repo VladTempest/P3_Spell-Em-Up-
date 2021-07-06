@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7188115567678674682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7188115567678674680}
+  - component: {fileID: 7188115567678674681}
+  m_Layer: 0
+  m_Name: Soundtrack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7188115567678674680
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7188115567678674682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 26.875208, y: -5.620088, z: -572.98157}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7188115567678674681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7188115567678674682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2200b48db7d436647bb2fec01ea31dae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: audiotrack
+  clip:
+  - {fileID: 8300000, guid: 6ab495725a43cc047952346429b99307, type: 3}
+  - {fileID: 8300000, guid: 9ca38437f2387ef41ab9b55110239b2a, type: 3}
+  - {fileID: 8300000, guid: effb75e12068f58459ebbd1ae24115ff, type: 3}
+  - {fileID: 8300000, guid: 030375e19f75bfc4d9ba2ffc080f99b9, type: 3}
+  - {fileID: 8300000, guid: f0f9ab41659296a449adeda6a40903dc, type: 3}
+  - {fileID: 8300000, guid: 4961a30068f22ff46a4fef65c4eb493f, type: 3}
+  - {fileID: 8300000, guid: d13eecca2b537bc49abf11a385d0a692, type: 3}
+  - {fileID: 8300000, guid: 9844c62243ce8d542a867b6d40d256c8, type: 3}
+  - {fileID: 8300000, guid: 367784731d80ac9468848350dc7196f4, type: 3}
+  - {fileID: 8300000, guid: dcc340b11f6f91440a43d3d92d8f2ea5, type: 3}
+  volume: 1
+  typeOfSoundtrack: 1
+  typeOfOstByItsNature: 1
+  typeOfSfxByItsNature: 7
+  typeOfSfxByNumberOfSounds: 1
+  typeOfSfxByPlace: 0

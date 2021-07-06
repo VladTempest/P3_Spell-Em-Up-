@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5933175603134598472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5933175603134598478}
+  - component: {fileID: 5933175603134598473}
+  - component: {fileID: 1355199238423855589}
+  m_Layer: 0
+  m_Name: UnderDoor_Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5933175603134598478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5933175603134598472}
+  m_LocalRotation: {x: -0, y: -0, z: 0.9999769, w: 0.0068119904}
+  m_LocalPosition: {x: 0.24928737, y: -8.766191, z: 2.8493707}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 179.219}
+--- !u!114 &5933175603134598473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5933175603134598472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 1
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.53
+  m_Color: {r: 1, g: 0.84313726, b: 0.57254905, a: 1}
+  m_Intensity: 0.4
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 9140c00e9d476be10000000045d7ec2fd31f0b6bbb623318
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 1
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 1
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 86.84
+  m_PointLightOuterAngle: 86.84
+  m_PointLightInnerRadius: 1.6
+  m_PointLightOuterRadius: 2.845115
+  m_PointLightDistance: 3
+  m_PointLightQuality: 1
+  m_ShapeLightParametricSides: 48
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 0.68
+  m_ShapeLightFalloffSize: 0.4
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.6998928, y: 0.01977736, z: 0}
+  - {x: 0.780372, y: 0.03877723, z: 0}
+  - {x: 0.9400179, y: 0.6024743, z: 0}
+  - {x: 1.0520368, y: 0.95672005, z: 0}
+  - {x: 1.2291616, y: 1.3333491, z: 0}
+  - {x: 0.9569381, y: 1.580781, z: 0}
+  - {x: 0.45264024, y: 1.8365437, z: 0}
+  - {x: -0.14369391, y: 1.9084933, z: 0}
+  - {x: -0.6953325, y: 1.7705563, z: 0}
+  - {x: -1.090617, y: 1.5759091, z: 0}
+  - {x: -1.3066918, y: 1.3259965, z: 0}
+  - {x: -0.9904201, y: 0.7109545, z: 0}
+  - {x: -0.81059223, y: 0.3640445, z: 0}
+--- !u!114 &1355199238423855589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5933175603134598472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 558ddd476f918f1459fed3d38727ff87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _triggerCollider: {fileID: 0}
+  _isTurnOnByTrigger: 0
+  _timeToFullyLight: 1
+  _stepsOfSettingIntensity: 15
+  _allTheLightsInRoom: []
+  lightOfRoom: {fileID: 0}
+  finalLightIntensity: 0
+  fxContrl: {fileID: 0}

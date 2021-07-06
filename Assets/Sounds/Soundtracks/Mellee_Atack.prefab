@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5841324121725122034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5841324121725122032}
+  - component: {fileID: 5841324121725122033}
+  m_Layer: 0
+  m_Name: Mellee_Atack
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5841324121725122032
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5841324121725122034}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 26.875208, y: -5.620088, z: -572.98157}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5841324121725122033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5841324121725122034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2200b48db7d436647bb2fec01ea31dae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: audiotrack
+  clip:
+  - {fileID: 8300000, guid: 15b1834e8c3a216499a3ca675e4b614c, type: 3}
+  - {fileID: 8300000, guid: 994e5d4cb6db57d409a7bd4dbe314dab, type: 3}
+  - {fileID: 8300000, guid: 4a03152f7a297464e89d365d450ff6f4, type: 3}
+  - {fileID: 8300000, guid: 2b957e0a0bbba2642aed6487947ca70d, type: 3}
+  - {fileID: 8300000, guid: 1be3d5173049941479c516d0400ce773, type: 3}
+  volume: 1
+  typeOfSoundtrack: 1
+  typeOfOstByItsNature: 1
+  typeOfSfxByItsNature: 12
+  typeOfSfxByNumberOfSounds: 1
+  typeOfSfxByPlace: 0

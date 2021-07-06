@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6b0f18a8b2b3004c92699b28a7b1676, type: 3}
+  m_Name: SoundtracksListSettings
+  m_EditorClassIdentifier: 
+  list:
+  - {fileID: 1482539295062684702, guid: e14194872d9b29f4d97f170c63702f41, type: 3}
+  - {fileID: 5566686728623009541, guid: 8d5660bd0f094d8448fabe4ec3a0e006, type: 3}
+  - {fileID: 7188115567678674681, guid: 5ead6ccd6818aee41a894ffa73373532, type: 3}
+  - {fileID: 2809455004339174536, guid: 569d54144163c1b45a528422cdda280f, type: 3}
+  - {fileID: 4154031722485537846, guid: 972a76b639ebbb04bb1ddeed19ac5a8e, type: 3}
+  - {fileID: 5581475080984587589, guid: c9f7676c214347b4ba37d6057cb011a6, type: 3}
+  - {fileID: 289669615681560011, guid: b265b884dc46cee4b80b8a273028a1ee, type: 3}
+  - {fileID: 5840713497050259431, guid: 35483f1523d2da74dbe951443b2db0ac, type: 3}
+  - {fileID: 1461536828680177138, guid: 8682681db0618164e9b854931338ed15, type: 3}
+  - {fileID: 4599129795175809334, guid: 7aedef4db8d162f4383111f6c6ab31b6, type: 3}
+  - {fileID: 6385543438623293209, guid: 88bc50f70c83bec46aebb9e040c0abff, type: 3}
+  - {fileID: 94368962574136324, guid: b96bbb287c73a12479aacbee24660cd5, type: 3}
+  - {fileID: 5841324121725122033, guid: 93a65c7664d00a4459d3d4479d1e19a1, type: 3}
+  - {fileID: 8664585265712582984, guid: 29892c761d11e594bbd58bb4ac370a08, type: 3}
+  - {fileID: 3055984681907983563, guid: 79e01d8733dbe2141934a36ff11625b1, type: 3}
+  - {fileID: 6998008708043755983, guid: 5b4f0dd8dfee7844fad7a6082f1c14d2, type: 3}
+  - {fileID: 3992627819264936371, guid: 57264cebde35e80438a92fd071bfe82b, type: 3}
+  - {fileID: 5055400804303434246, guid: 34dad0a02b8a0e143b4122e47c62485b, type: 3}
+  - {fileID: 1355320237404213880, guid: 270042902ab39a845b2d822eafe2b421, type: 3}
+  - {fileID: 4435207161819662398, guid: d9d4e705e492b0140b8fea71c338f8c4, type: 3}
+  - {fileID: 8933689434776055987, guid: 4576653efe4323349ac324e668a65263, type: 3}
+  - {fileID: 4767961619881850269, guid: 4a42f29309a5184499ff22e8cf359ce1, type: 3}
+  - {fileID: 6967913867705443590, guid: 0c1a4448bfa305e4a8fd723518e86172, type: 3}
+  - {fileID: 4424197647587350810, guid: 86a62a1eba0cb734fa2c51b20ec363a4, type: 3}

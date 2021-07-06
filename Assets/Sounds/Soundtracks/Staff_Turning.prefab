@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4424197647587350809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4424197647587350811}
+  - component: {fileID: 4424197647587350810}
+  m_Layer: 0
+  m_Name: Staff_Turning
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4424197647587350811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424197647587350809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 76.64525, y: 26.511639, z: -572.98157}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4424197647587350810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4424197647587350809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2200b48db7d436647bb2fec01ea31dae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: audiotrack
+  clip:
+  - {fileID: 8300000, guid: e5157612ef7df2b47b54e3a417e48308, type: 3}
+  - {fileID: 8300000, guid: a77ed6acb455cbf4499e309f764159a9, type: 3}
+  - {fileID: 8300000, guid: 9a2721425ce71a64b9640d923f8368b9, type: 3}
+  - {fileID: 8300000, guid: 8a5caadcd5ba2ed4a8e870228dd60dd6, type: 3}
+  - {fileID: 8300000, guid: 6c143575c81e80b4f9a20ef4526494f6, type: 3}
+  volume: 0.1
+  typeOfSoundtrack: 1
+  typeOfOstByItsNature: 1
+  typeOfSfxByItsNature: 22
+  typeOfSfxByNumberOfSounds: 1
+  typeOfSfxByPlace: 0
