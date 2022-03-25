@@ -106,25 +106,41 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: Hat_top
+      guid: 
       position: {x: -13.561374, y: 1.1831113, z: 0}
       rotation: {x: 0, y: 0, z: 0.9994036, w: 0.03453361}
       length: 48.07864
       parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Body_Hat
+      guid: 
       position: {x: 54.54367, y: 180.1308, z: 0}
       rotation: {x: 0, y: 0, z: 0.70076597, w: 0.71339124}
       length: 39.908146
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Hat_top_2
+      guid: 
       position: {x: 53.451077, y: -0.000015428273, z: 0}
       rotation: {x: 0, y: 0, z: -0.00000025316862, w: 1}
       length: 54.391056
       parentId: 3
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Hat_top_1
+      guid: 
       position: {x: 48.078667, y: -0.000012178729, z: 0}
       rotation: {x: 0, y: 0, z: 0, w: 1}
       length: 53.451122
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 44.041992, y: 3.9929962}
@@ -476,10 +492,14 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: Body_Hat
+      guid: 
       position: {x: 103.54367, y: 40.130814, z: 0}
       rotation: {x: 0, y: 0, z: 0.70076597, w: 0.71339124}
       length: 39.908146
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 140.37299, y: 2.972992}
@@ -1019,10 +1039,14 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: Left_Arm
+      guid: 
       position: {x: 59.715546, y: 17.99321, z: 0}
       rotation: {x: 0, y: 0, z: 0.9919385, w: 0.12672083}
       length: 56.68548
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 27.821014, y: 0.08300018}
@@ -1351,10 +1375,14 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: Right_Arm
+      guid: 
       position: {x: 6.2955933, y: -11.431854, z: 0}
       rotation: {x: 0, y: 0, z: 0.55123234, w: 0.83435184}
       length: 52.67438
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 31.609009, y: 0.39900208}
@@ -1694,10 +1722,14 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: Staff
+      guid: 
       position: {x: 71.93445, y: 180.00804, z: 0}
       rotation: {x: 0, y: 0, z: 0.85532224, w: 0.51809645}
       length: 124.61362
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 147, y: 1}
@@ -2528,25 +2560,41 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: Cape_Edge
+      guid: 
       position: {x: 27.225796, y: -0.0000010870231, z: 0}
       rotation: {x: 0, y: 0, z: -0.13884239, w: 0.99031454}
       length: 35.804245
       parentId: 2
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Cape_Top
+      guid: 
       position: {x: -10.940744, y: 14.057552, z: 0}
       rotation: {x: 0, y: 0, z: 0.94923025, w: 0.3145823}
       length: 59.431286
       parentId: 3
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Cape_Middle
+      guid: 
       position: {x: 59.431232, y: 0.0000020792768, z: 0}
       rotation: {x: 0, y: 0, z: -0.045230035, w: 0.9989766}
       length: 27.225786
       parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Body_Hat
+      guid: 
       position: {x: 166.54367, y: 124.13081, z: 0}
       rotation: {x: 0, y: 0, z: 0.70076597, w: 0.71339124}
       length: 39.908146
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 142.07199, y: 0.8370018}
@@ -3075,119 +3123,98 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 152, y: -65}
-  platformSettings: []
-  mosaicLayers: 1
-  documentPivot: {x: 0, y: 0}
-  documentAlignment: 7
-  importHiddenLayers: 0
-  importedTextureWidth: 512
-  importedTextureHeight: 512
-  documentSize: {x: 322, y: 374}
-  paperDollMode: 0
-  keepDupilcateSpriteName: 0
-  spriteCategoryList:
-    categories: []
-  textureActualWidth: 512
-  textureActualHeight: 512
-  spritePackingTag: 
-  resliceFromLayer: 0
-  characterMode: 1
-  mosaicPSDLayers: []
-  rigPSDLayers:
-  - name: Hat
-    spriteName: Hat
-    isGroup: 0
-    parentIndex: -1
-    spriteID: f7ab87e00f6b5334e86b693b29a3742a
-    layerID: 11
-    mosaicPosition: {x: 159, y: 139}
-  - name: Body
-    spriteName: Body
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 927d66f190094d84f8ad009c457f6db2
-    layerID: 10
-    mosaicPosition: {x: 280, y: 139}
-  - name: Left_Arm
-    spriteName: Left_Arm
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 286f9e7f354e12c4485ae9dc86d4feaf
-    layerID: 6
-    mosaicPosition: {x: 400, y: 4}
-  - name: Right_Arm
-    spriteName: Right_Arm
-    isGroup: 0
-    parentIndex: -1
-    spriteID: e42c6cecf1d788c4dabb1afe17dfeb60
-    layerID: 7
-    mosaicPosition: {x: 400, y: 51}
-  - name: Stuff
-    spriteName: Stuff
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 32fbfa1d784641644b3c468d155e6b45
-    layerID: 8
-    mosaicPosition: {x: 4, y: 4}
-  - name: Cape
-    spriteName: Cape
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 9e10461ec070c6f418a700e681eb3c4b
-    layerID: 9
-    mosaicPosition: {x: 159, y: 4}
   characterData:
     bones:
     - name: Body_Hat
+      guid: 
       position: {x: 173.54367, y: 193.13081, z: 0}
       rotation: {x: 0, y: 0, z: 0.70076597, w: 0.71339124}
       length: 39.908142
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Hat_top
+      guid: 
       position: {x: -13.561387, y: 1.1831168, z: 0}
       rotation: {x: 0, y: -0, z: 0.9994036, w: 0.034533624}
       length: 48.07864
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Left_Arm
+      guid: 
       position: {x: -3.383982, y: 69.778824, z: 0}
       rotation: {x: 0, y: 0, z: 0.61883855, w: 0.7855182}
       length: 56.685474
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Right_Arm
+      guid: 
       position: {x: -2.7988045, y: -42.808712, z: 0}
       rotation: {x: 0, y: 0, z: -0.19144104, w: 0.98150414}
       length: 52.674377
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Cape_Top
+      guid: 
       position: {x: -10.940718, y: 14.057535, z: 0}
       rotation: {x: 0, y: -0, z: 0.9492302, w: 0.3145823}
       length: 59.431297
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Cape_Middle
+      guid: 
       position: {x: 59.431282, y: -0.0000070526357, z: 0}
       rotation: {x: 0, y: 0, z: -0.04522997, w: 0.9989766}
       length: 27.225788
       parentId: 4
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Cape_Edge
+      guid: 
       position: {x: 27.225788, y: 0.0000062111585, z: 0}
       rotation: {x: 0, y: 0, z: -0.1388424, w: 0.9903145}
       length: 35.804253
       parentId: 5
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Staff
+      guid: 
       position: {x: 61.175526, y: -7.219237, z: 0}
       rotation: {x: 0, y: 0, z: 0.42804813, w: 0.90375596}
       length: 124.61364
       parentId: 3
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Hat_top_1
+      guid: 
       position: {x: 48.078636, y: -0.000009188089, z: 0}
       rotation: {x: 0, y: 0, z: -0, w: 1}
       length: 53.451122
       parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Hat_top_2
+      guid: 
       position: {x: 53.45112, y: -0.0000075385133, z: 0}
       rotation: {x: 0, y: 0, z: -0.00000023827636, w: 1}
       length: 54.391052
       parentId: 8
+      color:
+        serializedVersion: 2
+        rgba: 0
     parts:
     - spritePosition:
         x: 119
@@ -3245,8 +3272,80 @@ ScriptedImporter:
       order: 0
     dimension: {x: 0, y: 0}
     characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 512
+  importedTextureHeight: 512
+  documentSize: {x: 322, y: 374}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 512
+  textureActualHeight: 512
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Hat
+    spriteName: Hat
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f7ab87e00f6b5334e86b693b29a3742a
+    layerID: 11
+    mosaicPosition: {x: 159, y: 139}
+  - name: Body
+    spriteName: Body
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 927d66f190094d84f8ad009c457f6db2
+    layerID: 10
+    mosaicPosition: {x: 280, y: 139}
+  - name: Left_Arm
+    spriteName: Left_Arm
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 286f9e7f354e12c4485ae9dc86d4feaf
+    layerID: 6
+    mosaicPosition: {x: 400, y: 4}
+  - name: Right_Arm
+    spriteName: Right_Arm
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e42c6cecf1d788c4dabb1afe17dfeb60
+    layerID: 7
+    mosaicPosition: {x: 400, y: 51}
+  - name: Stuff
+    spriteName: Stuff
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 32fbfa1d784641644b3c468d155e6b45
+    layerID: 8
+    mosaicPosition: {x: 4, y: 4}
+  - name: Cape
+    spriteName: Cape
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 9e10461ec070c6f418a700e681eb3c4b
+    layerID: 9
+    mosaicPosition: {x: 159, y: 4}
+  sharedRigPSDLayers: []
   generateGOHierarchy: 0
   textureAssetName: Mage All Texture
   prefabAssetName: Mage All Prefab
   spriteLibAssetName: Mage All Sprite Lib
+  skeletonAssetName: Mage All Skeleton
   secondarySpriteTextures: []

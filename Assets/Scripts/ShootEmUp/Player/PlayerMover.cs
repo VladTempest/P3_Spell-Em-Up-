@@ -15,21 +15,21 @@ namespace ShootEmUp.Player
         private NavMeshAgent _navMeshAgent = null;
         [SerializeField]
         private AnimationPlayer _playerAnimationPLayer = null;
-        
+
         [SerializeField]
         private bool _isActivePCControls = false;
 
         [SerializeField]
-        private Joystick _joystickMove=null;
+        private Joystick _joystickMove = null;
         [SerializeField]
         private float _deadZoneOfStick = 0.2f;
-            
-        
+
+
 
         private void Awake()
         {
             playerRigidbody = GetComponent<Rigidbody2D>();
-            
+
             _playerAnimationPLayer = GetComponentInChildren<AnimationPlayer>();
 
             _navMeshAgent = GetComponent<NavMeshAgent>();
@@ -75,23 +75,33 @@ namespace ShootEmUp.Player
         }
         void FixedUpdate()
         {
-            
-        if (_movement.magnitude != 0)
+
+            if (_movement.magnitude != 0)
             {
+
                 _navMeshAgent.isStopped = false;
-                _playerAnimationPLayer.StartMovingAnimation();
-                Vector3 differencePosition=new Vector3(_movement.x, _movement.y, 0) * (moveSpeed);
+                Vector3 differencePosition = new Vector3(_movement.x, _movement.y, 0) * (moveSpeed);
                 var destination = transform.position + differencePosition;
                 _navMeshAgent.SetDestination(destination);
+                if (_navMeshAgent.velocity.magnitude != 0)
+                {
+                    _playerAnimationPLayer.StartMovingAnimation();
+                }
+                else
+                {
+                    _playerAnimationPLayer.StopMovingAnimation();
+                }
             }
             if (_movement.magnitude == 0)
             {
                 _navMeshAgent.isStopped = true;
                 _playerAnimationPLayer.StopMovingAnimation();
-
             }
 
-            
+
+
+
+
         }
     }
 }

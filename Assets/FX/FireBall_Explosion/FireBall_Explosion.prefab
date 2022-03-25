@@ -590,6 +590,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: f069be90e5f6b7647aaedf06c8edd734, type: 2}
+    - target: {fileID: 5512044059308806317, guid: c5c373fb61d740b40aa54abb0e629314, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5512044059308806318, guid: c5c373fb61d740b40aa54abb0e629314, type: 3}
       propertyPath: m_Name
       value: FireBall_Explosion_Burst
@@ -655,6 +659,10 @@ PrefabInstance:
     - target: {fileID: 7178871196156145644, guid: 044a809257e6112469a098700b2c8671, type: 3}
       propertyPath: m_Name
       value: FireBall_Explosion_Burst_Linear
+      objectReference: {fileID: 0}
+    - target: {fileID: 7178871196156145647, guid: 044a809257e6112469a098700b2c8671, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 044a809257e6112469a098700b2c8671, type: 3}

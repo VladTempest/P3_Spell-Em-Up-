@@ -1,4 +1,6 @@
+#if UNITY_Editor
 using UnityEditor;
+#endif
 using UnityEngine;
 namespace ShootEmUp.ExtraGizmos
 {
@@ -6,9 +8,11 @@ namespace ShootEmUp.ExtraGizmos
     {
         [SerializeField]
         private string _textOnScreen = "default";
+       #if UNITY_Editor
         void OnDrawGizmos() 
         {
-            //Handles.Label(transform.position, _textOnScreen);
+            Handles.Label(transform.position, _textOnScreen);
         }
+        #endif
     }
 }

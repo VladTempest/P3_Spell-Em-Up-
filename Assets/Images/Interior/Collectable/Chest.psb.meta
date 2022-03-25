@@ -106,10 +106,14 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: bone_2
+      guid: 
       position: {x: 59.398094, y: 10.71698, z: 1}
       rotation: {x: 0, y: 0, z: 0.707107, w: 0.70710665}
       length: 49.318424
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 127.94101, y: 12.293999}
@@ -553,10 +557,14 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: bone_1
+      guid: 
       position: {x: 62.97294, y: 5.877819, z: 0}
       rotation: {x: 0, y: 0, z: 0.70312333, w: 0.7110679}
       length: 37.84155
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 55.420998, y: 0.0009994507}
@@ -1047,51 +1055,26 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: 4}
-  platformSettings: []
-  mosaicLayers: 1
-  documentPivot: {x: 0, y: 0}
-  documentAlignment: 7
-  importHiddenLayers: 0
-  importedTextureWidth: 256
-  importedTextureHeight: 256
-  documentSize: {x: 137, y: 97}
-  paperDollMode: 0
-  keepDupilcateSpriteName: 0
-  spriteCategoryList:
-    categories: []
-  textureActualWidth: 256
-  textureActualHeight: 256
-  spritePackingTag: 
-  resliceFromLayer: 0
-  characterMode: 1
-  mosaicPSDLayers: []
-  rigPSDLayers:
-  - name: Chest_Cap
-    spriteName: Chest_Cap
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 2dc01557a8c39b041b0f0be8be793445
-    layerID: 5
-    mosaicPosition: {x: 4, y: 109}
-  - name: Chest_Down
-    spriteName: Chest_Down
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 8e4b18c11a8f3cf418aa42379de77c13
-    layerID: 6
-    mosaicPosition: {x: 4, y: 4}
   characterData:
     bones:
     - name: bone_1
+      guid: 
       position: {x: 62.97294, y: 5.8778186, z: 0}
       rotation: {x: 0, y: 0, z: 0.70312333, w: 0.7110679}
       length: 37.841545
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: bone_2
+      guid: 
       position: {x: 37.841545, y: -0.0000008004884, z: 1}
       rotation: {x: 0, y: 0, z: 0.0056179217, w: 0.9999842}
       length: 49.31843
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     parts:
     - spritePosition:
         x: 0
@@ -1113,8 +1096,52 @@ ScriptedImporter:
       order: 0
     dimension: {x: 0, y: 0}
     characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 256
+  importedTextureHeight: 256
+  documentSize: {x: 137, y: 97}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 256
+  textureActualHeight: 256
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Chest_Cap
+    spriteName: Chest_Cap
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 2dc01557a8c39b041b0f0be8be793445
+    layerID: 5
+    mosaicPosition: {x: 4, y: 109}
+  - name: Chest_Down
+    spriteName: Chest_Down
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8e4b18c11a8f3cf418aa42379de77c13
+    layerID: 6
+    mosaicPosition: {x: 4, y: 4}
+  sharedRigPSDLayers: []
   generateGOHierarchy: 0
   textureAssetName: Chest Texture
   prefabAssetName: Chest Prefab
   spriteLibAssetName: Chest Sprite Lib
+  skeletonAssetName: Chest Skeleton
   secondarySpriteTextures: []

@@ -1,4 +1,5 @@
 using System;
+using ShootEmUp.Managers;
 using ShootEmUp.Sounds;
 using UnityEngine;
 
@@ -17,7 +18,7 @@ namespace ShootEmUp.ObserverPattern
         #endregion Actions/Gameplay
         
         #region Actions/MainMenu
-        public static event Action PlayButtonClicked;
+        public static event Action<SceneManager.Scenes> SceneLoadButtonClicked;
         #endregion Actions/MainMenu
         
         
@@ -57,10 +58,12 @@ namespace ShootEmUp.ObserverPattern
         #endregion Calls/Gameplay
         
         #region Calls/MainMenu
-        public static void CallPlayButtonClicked()
+        public static void CallSceneLoadButtonClicked(SceneManager.Scenes scene)
         {
-            PlayButtonClicked?.Invoke();
+            SceneLoadButtonClicked?.Invoke(scene);
         }
+        
+        
         #endregion Calls/MainMenu
     }
 }

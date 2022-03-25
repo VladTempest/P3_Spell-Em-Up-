@@ -1,3 +1,4 @@
+using ShootEmUp.Managers;
 using ShootEmUp.ObserverPattern;
 using ShootEmUp.Sounds;
 using UnityEngine;
@@ -6,9 +7,11 @@ namespace ShootEmUp.UI
 {
     public class PlayButton : MonoBehaviour,IClickableWithSound
     {
+        [SerializeField]
+        private SceneManager.Scenes _sceneToLoad;
         void Awake()
         {
-            gameObject.GetComponent<Button>().onClick.AddListener(EventBroker.CallPlayButtonClicked);
+            gameObject.GetComponent<Button>().onClick.AddListener(() => { EventBroker.CallSceneLoadButtonClicked(_sceneToLoad);});
             gameObject.GetComponent<Button>().onClick.AddListener(PlaySFXOfButton);
         }
 
@@ -18,7 +21,7 @@ namespace ShootEmUp.UI
         }
         void OnDestroy()
         {
-            gameObject.GetComponent<Button>().onClick.RemoveListener(EventBroker.CallPlayButtonClicked);
+            gameObject.GetComponent<Button>().onClick.RemoveListener(() => { EventBroker.CallSceneLoadButtonClicked(_sceneToLoad);});
             gameObject.GetComponent<Button>().onClick.RemoveListener(PlaySFXOfButton);
         
         }

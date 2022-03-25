@@ -19,7 +19,7 @@ namespace ShootEmUp.GameConfigs
         {
             Unsubscribe();
         }
-        private void PushInputtedValuesIntoGameManager()
+        private void PushInputtedValuesIntoGameManager(SceneManager.Scenes scene )
         {
             foreach (SoloConfiguration soloConfig in _configsArray)
             {
@@ -29,11 +29,11 @@ namespace ShootEmUp.GameConfigs
         }
         public void Subscribe()
         {
-            EventBroker.PlayButtonClicked += PushInputtedValuesIntoGameManager;
+            EventBroker.SceneLoadButtonClicked += PushInputtedValuesIntoGameManager;
         }
         public void Unsubscribe()
         {
-            EventBroker.PlayButtonClicked -= PushInputtedValuesIntoGameManager;
+            EventBroker.SceneLoadButtonClicked -= PushInputtedValuesIntoGameManager;
         }
     }
 }
