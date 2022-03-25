@@ -20,7 +20,7 @@ namespace ShootEmUp.Sounds
     
     public enum TypeOfOSTByItsNature
     {
-        MainMenu=0,Gameplay_Level1=1, None=2
+        MainMenu=0,Gameplay_Level1=1, None=2, Arena=3
     }
 
     public enum TypeOfSFXByPlace

@@ -30,7 +30,7 @@ namespace ShootEmUp.Animation.InWorldAnimationTriggers
 
         private void Awake()
         {
-            _doorRotation = _doorTransform.rotation;
+            _doorRotation = _doorTransform.localRotation;
             _finalRotation = _doorRotation.eulerAngles.z;
 
             CloseDoor();

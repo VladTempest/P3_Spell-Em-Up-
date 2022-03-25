@@ -106,10 +106,14 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: Body
+      guid: 
       position: {x: 45.356262, y: 31.404213, z: 0}
       rotation: {x: 0, y: 0, z: 0.6929462, w: 0.72098935}
       length: 83.84327
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 63.005005, y: 1.9869995}
@@ -460,10 +464,14 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: Left_Shoulder
+      guid: 
       position: {x: 63.372253, y: 34.021423, z: 0}
       rotation: {x: 0, y: 0, z: 0.91698575, w: 0.39892018}
       length: 39.98804
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 60.91501, y: 0.4869995}
@@ -825,10 +833,14 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: Right_Shoulder
+      guid: 
       position: {x: 0.9204407, y: 25.670395, z: 0}
       rotation: {x: 0, y: 0, z: 0.27291384, w: 0.96203846}
       length: 36.720272
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 9.306, y: 0.002998352}
@@ -1220,10 +1232,14 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: Left_Arm
+      guid: 
       position: {x: 26.776276, y: 4.245178, z: 0}
       rotation: {x: 0, y: 0, z: 0.78178006, w: 0.62355435}
       length: 38.87246
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 38.524002, y: 0.024993896}
@@ -1563,10 +1579,14 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: Right_Arm
+      guid: 
       position: {x: 20.532333, y: 4.5643616, z: 0}
       rotation: {x: 0, y: 0, z: 0.63039076, w: 0.7762781}
       length: 42.120205
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 19.968, y: 0.16299438}
@@ -1927,10 +1947,14 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: Left_Wrist
+      guid: 
       position: {x: 18.132599, y: 8.14447, z: 0}
       rotation: {x: 0, y: 0, z: 0.68285656, w: 0.73055255}
       length: 49.314728
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 45.557007, y: 0.68400574}
@@ -2292,10 +2316,14 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: Right_Wrist
+      guid: 
       position: {x: 45.176025, y: 12.788132, z: 0}
       rotation: {x: 0, y: 0, z: 0.7275722, w: 0.6860312}
       length: 45.291317
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 65.849, y: 4.095001}
@@ -2679,10 +2707,14 @@ ScriptedImporter:
     internalID: 0
     spriteBone:
     - name: Bomb
+      guid: 
       position: {x: 131.69669, y: 155.9907, z: 0}
       rotation: {x: 0, y: 0, z: 0.69911885, w: 0.7150056}
       length: 59.19097
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     spriteOutline: []
     vertices:
     - position: {x: 130.985, y: 83.348}
@@ -2931,123 +2963,80 @@ ScriptedImporter:
     tessellationDetail: 0
     parentGroupIndex: -1
     uvTransform: {x: 4, y: -36}
-  platformSettings: []
-  mosaicLayers: 1
-  documentPivot: {x: 0, y: 0}
-  documentAlignment: 7
-  importHiddenLayers: 0
-  importedTextureWidth: 512
-  importedTextureHeight: 512
-  documentSize: {x: 286, y: 301}
-  paperDollMode: 0
-  keepDupilcateSpriteName: 0
-  spriteCategoryList:
-    categories: []
-  textureActualWidth: 512
-  textureActualHeight: 512
-  spritePackingTag: 
-  resliceFromLayer: 0
-  characterMode: 1
-  mosaicPSDLayers: []
-  rigPSDLayers:
-  - name: Body
-    spriteName: Body
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 0603dc6d27cfa9941ad037db5fbb06ba
-    layerID: 9
-    mosaicPosition: {x: 298, y: 4}
-  - name: Left_Shoulder
-    spriteName: Left_Shoulder
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 3f1e970552154254d9f6140668ec7eb5
-    layerID: 10
-    mosaicPosition: {x: 298, y: 141}
-  - name: Right_Shoulder
-    spriteName: Right_Shoulder
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 0290e5e48319bd348beb136b1694ef85
-    layerID: 11
-    mosaicPosition: {x: 400, y: 4}
-  - name: Left_Hand
-    spriteName: Left_Hand
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 09f52855e912d1744a4eac36e3cc97a5
-    layerID: 14
-    mosaicPosition: {x: 4, y: 255}
-  - name: Right_Hand
-    spriteName: Right_Hand
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 8c8a99fb13fc4694fa3d75d52f781d00
-    layerID: 15
-    mosaicPosition: {x: 4, y: 304}
-  - name: Left_Wrist
-    spriteName: Left_Wrist
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 80c076feb13881e4a9790cda6d218529
-    layerID: 16
-    mosaicPosition: {x: 400, y: 160}
-  - name: Right_Wrist
-    spriteName: Right_Wrist
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 6dcb3cd57497b0642b6227e5c2897930
-    layerID: 17
-    mosaicPosition: {x: 400, y: 86}
-  - name: Bomb
-    spriteName: Bomb
-    isGroup: 0
-    parentIndex: -1
-    spriteID: 0408cf5d4529fde42b35c509ced32b7a
-    layerID: 6
-    mosaicPosition: {x: 4, y: 4}
   characterData:
     bones:
     - name: Body
+      guid: 
       position: {x: 134.35628, y: 40.404213, z: 0}
       rotation: {x: 0, y: 0, z: 0.6929462, w: 0.72098935}
       length: 83.84327
       parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Right_Shoulder
+      guid: 
       position: {x: 26.775427, y: -37.531994, z: 0}
       rotation: {x: 0, y: 0, z: -0.46987292, w: 0.8827341}
       length: 36.72027
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Right_Arm
+      guid: 
       position: {x: 38.490074, y: 23.12775, z: 0}
       rotation: {x: 0, y: 0, z: 0.39460307, w: 0.9188517}
       length: 42.12021
       parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Right_Wrist
+      guid: 
       position: {x: 42.120213, y: -0.0000060803004, z: 0}
       rotation: {x: 0, y: 0, z: 0.13233058, w: 0.9912057}
       length: 45.291317
       parentId: 2
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Bomb
+      guid: 
       position: {x: 53.25638, y: 67.46843, z: 0}
       rotation: {x: 0, y: 0, z: -0.040600814, w: 0.9991755}
       length: 59.19097
       parentId: 3
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Left_Shoulder
+      guid: 
       position: {x: 24.011662, y: 40.96833, z: 0}
       rotation: {x: 0, y: 0, z: 0.3847067, w: 0.9230389}
       length: 39.988045
       parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Left_Arm
+      guid: 
       position: {x: 48.290787, y: -8.645454, z: 0}
       rotation: {x: 0, y: 0, z: -0.25992253, w: 0.96562946}
       length: 38.872463
       parentId: 5
+      color:
+        serializedVersion: 2
+        rgba: 0
     - name: Left_Wrist
+      guid: 
       position: {x: 38.872463, y: -0.00000256069, z: 0}
       rotation: {x: 0, y: 0, z: -0.14533326, w: 0.9893828}
       length: 49.314728
       parentId: 6
+      color:
+        serializedVersion: 2
+        rgba: 0
     parts:
     - spritePosition:
         x: 89
@@ -3123,8 +3112,94 @@ ScriptedImporter:
       order: 0
     dimension: {x: 0, y: 0}
     characterGroups: []
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    boneReadOnly: 0
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  importedTextureWidth: 512
+  importedTextureHeight: 512
+  documentSize: {x: 286, y: 301}
+  paperDollMode: 0
+  keepDupilcateSpriteName: 0
+  skeletonAssetReferenceID: 
+  spriteCategoryList:
+    categories: []
+  textureActualWidth: 512
+  textureActualHeight: 512
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: Body
+    spriteName: Body
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0603dc6d27cfa9941ad037db5fbb06ba
+    layerID: 9
+    mosaicPosition: {x: 298, y: 4}
+  - name: Left_Shoulder
+    spriteName: Left_Shoulder
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3f1e970552154254d9f6140668ec7eb5
+    layerID: 10
+    mosaicPosition: {x: 298, y: 141}
+  - name: Right_Shoulder
+    spriteName: Right_Shoulder
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0290e5e48319bd348beb136b1694ef85
+    layerID: 11
+    mosaicPosition: {x: 400, y: 4}
+  - name: Left_Hand
+    spriteName: Left_Hand
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 09f52855e912d1744a4eac36e3cc97a5
+    layerID: 14
+    mosaicPosition: {x: 4, y: 255}
+  - name: Right_Hand
+    spriteName: Right_Hand
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8c8a99fb13fc4694fa3d75d52f781d00
+    layerID: 15
+    mosaicPosition: {x: 4, y: 304}
+  - name: Left_Wrist
+    spriteName: Left_Wrist
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 80c076feb13881e4a9790cda6d218529
+    layerID: 16
+    mosaicPosition: {x: 400, y: 160}
+  - name: Right_Wrist
+    spriteName: Right_Wrist
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6dcb3cd57497b0642b6227e5c2897930
+    layerID: 17
+    mosaicPosition: {x: 400, y: 86}
+  - name: Bomb
+    spriteName: Bomb
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0408cf5d4529fde42b35c509ced32b7a
+    layerID: 6
+    mosaicPosition: {x: 4, y: 4}
+  sharedRigPSDLayers: []
   generateGOHierarchy: 0
   textureAssetName: Bomber All Texture
   prefabAssetName: Bomber All Prefab
   spriteLibAssetName: Bomber All Sprite Lib
+  skeletonAssetName: Bomber All Skeleton
   secondarySpriteTextures: []

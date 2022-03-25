@@ -16,13 +16,13 @@ namespace ShootEmUp.Animation.Tweening
         private float _animationDurationSliding;
         [SerializeField]
         private Ease _easeType;
-        [SerializeField]
-        private float _endValue;
+        [SerializeField] [Range(0,1)]
+        private float _coefficientEndValue;
 
         private void Start()
         {
              transform
-                .DOMoveX(1170f, _animationDurationSliding)
+                .DOMoveX(Screen.width/2, _animationDurationSliding)
                 .SetEase(_easeType)
                 .SetLoops(1)
                 .OnStepComplete(StartFloating);
@@ -31,7 +31,7 @@ namespace ShootEmUp.Animation.Tweening
         private void StartFloating()
         {
             _floatingTween =transform
-                .DOMoveY(_endValue, _animationDurationFloating)
+                .DOMoveY(Screen.height*_coefficientEndValue, _animationDurationFloating)
                 .SetEase(_easeType)
                 .SetLoops(-1, LoopType.Yoyo); 
         }

@@ -1,3 +1,4 @@
+using System;
 using ShootEmUp.Managers;
 using UnityEngine;
 
@@ -18,7 +19,13 @@ namespace ShootEmUp.Player
         private Joystick _joystickAttack=null;
         [SerializeField]
         private Joystick _joystickMove = null;
-        
+
+        [SerializeField]
+        private float maxTimeOffsetAfterUsingMoveJoystick = 1f;
+        private float timeOffsetAfterUsingMoveJoystick = 0f;
+
+        [SerializeField]
+        private float speedOfRotation = 0.2f;
         [SerializeField]
         private Vector2 _stickOffset;
         
@@ -44,14 +51,21 @@ namespace ShootEmUp.Player
 
                 if (attackOffset.magnitude != 0)
                 {
+                    timeOffsetAfterUsingMoveJoystick = 0;
                     _stickOffset = attackOffset;
                 }
                 else if (moveOffset.magnitude!=0)
                 {
-                    _stickOffset = moveOffset;
+                    timeOffsetAfterUsingMoveJoystick += Time.deltaTime;
+                    if (timeOffsetAfterUsingMoveJoystick >= maxTimeOffsetAfterUsingMoveJoystick)
+                    {
+                        _stickOffset = moveOffset;
+                    }
+                    
                 }
                 else
                 {
+                    timeOffsetAfterUsingMoveJoystick = 0;
                     _stickOffset=Vector2.zero;
                 }
 
@@ -63,6 +77,10 @@ namespace ShootEmUp.Player
         private void FixedUpdate()
         {
             if ((!_isActivePCControls)&&(_stickOffset.magnitude != 0))
+            {
+                FaceMousePointer();
+            }
+            if (_isActivePCControls)
             {
                 FaceMousePointer();
             }
@@ -81,9 +99,10 @@ namespace ShootEmUp.Player
                 lookDirection = _stickOffset;
             }
             
-            float angleForPlayerRotation = Mathf.Atan2(lookDirection.y, lookDirection.x)*Mathf.Rad2Deg-90f;
-            _rigidbody2D.rotation = angleForPlayerRotation;
             
+            var lookRotation = Quaternion.LookRotation(Vector3.forward,lookDirection);
+            transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation,  speedOfRotation);
+
         }
 
         
