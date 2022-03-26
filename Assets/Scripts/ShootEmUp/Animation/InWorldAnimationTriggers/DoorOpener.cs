@@ -66,7 +66,6 @@ namespace ShootEmUp.Animation.InWorldAnimationTriggers
                 currentStep++;
                 yield return new WaitForSeconds(0);
                 _doorTransform.Rotate(new Vector3(0, 0, -angleStep));
-
             }
         }
 
@@ -76,7 +75,6 @@ namespace ShootEmUp.Animation.InWorldAnimationTriggers
             var finalColliderOffset = new Vector2(_doorCollider.offset.x, 0);
             _doorCollider.size = finalColliderSize;
             _doorCollider.offset = finalColliderOffset;
-
         }
 
         private void OnTriggerEnter2D(Collider2D other)
