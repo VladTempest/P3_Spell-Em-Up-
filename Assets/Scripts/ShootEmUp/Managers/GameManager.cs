@@ -31,7 +31,7 @@ namespace ShootEmUp.Managers
         public HighscoreUI highscoreUI = null;
         public GameObject player;
         public float enemySpeed = 10f;
-        public float maxScore = 50f;
+        public float maxScore = 30f;
         public float _maxMana = 20f;
         public float CurrentMana
         {
