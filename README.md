@@ -1,4 +1,4 @@
-# P3_Spell-Em-Up-
+# Spell'em Up! 1.0.1
 New shoot-em-up top-down porject.
 
 Youtube channel with Development of this porject:
